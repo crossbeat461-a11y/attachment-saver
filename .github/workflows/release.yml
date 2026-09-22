@@ -1,0 +1,25 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          name: Multi-Attachment Saver ${{ github.ref_name }}
+          generate_release_notes: true
+          body: |
+            Thunderbird 115+ add-on. Save all attachments from the open message into a timestamped folder.
+
+            Install from Thunderbird Add-ons: https://addons.thunderbird.net/ja/thunderbird/addon/multi-attachment-saver/
+            Landing page: https://attachment-lp.vercel.app/
