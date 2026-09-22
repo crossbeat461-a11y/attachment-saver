@@ -2,6 +2,7 @@
 
 Thunderbird add-on that saves every attachment from the message you are reading into one folder.
 
+**Repository:** https://github.com/crossbeat461-a11y/attachment-saver  
 **Install (recommended):** [Thunderbird Add-ons — Multi-Attachment Saver](https://addons.thunderbird.net/ja/thunderbird/addon/multi-attachment-saver/)  
 **Landing page:** https://attachment-lp.vercel.app/  
 **Homepage:** https://k-tech-lab.vercel.app/
@@ -37,7 +38,7 @@ UI strings: Japanese, English, German, Spanish, French, Korean, Simplified Chine
 
 ### Report issues
 
-Open a [GitHub Issue](https://github.com/crossbeat461-a11y/attachment-saver/issues) with Thunderbird version, OS, and steps to reproduce.
+Open a [GitHub Issue](https://github.com/crossbeat461-a11y/attachment-saver/issues/new) with Thunderbird version, OS, and steps to reproduce.
 
 ---
 
