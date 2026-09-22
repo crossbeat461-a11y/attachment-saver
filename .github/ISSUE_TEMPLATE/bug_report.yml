@@ -1,0 +1,64 @@
+name: 不具合・要望
+description: Multi-Attachment Saver（Thunderbird アドオン）の報告
+title: "[Multi-Attachment Saver] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Multi-Attachment Saver**（Add-on ID: `K-saver@k-tech-studio.com`）についての不具合や要望です。
+        インストールは [Thunderbird Add-ons](https://addons.thunderbird.net/ja/thunderbird/addon/multi-attachment-saver/) を優先してください。
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 種類
+      options:
+        - 不具合
+        - 要望
+    validations:
+      required: true
+  - type: input
+    id: addon_version
+    attributes:
+      label: アドオンの版
+      description: アドオン管理で表示される版（例: 6.5）
+      placeholder: "6.5"
+    validations:
+      required: true
+  - type: input
+    id: thunderbird_version
+    attributes:
+      label: Thunderbird の版
+      placeholder: "128.0"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: "macOS 15 / Windows 11"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      description: 不具合の場合、どう操作すると起きるか
+      placeholder: |
+        1. メールを開く
+        2. ツールバーの保存ボタンを押す
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待した動き
+    validations:
+      required: false
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際の動き
+    validations:
+      required: false

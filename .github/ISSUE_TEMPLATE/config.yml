@@ -1,0 +1,6 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Thunderbird Add-ons（インストール）
+    url: https://addons.thunderbird.net/ja/thunderbird/addon/multi-attachment-saver/
+  - name: 製品 LP
+    url: https://attachment-lp.vercel.app/
