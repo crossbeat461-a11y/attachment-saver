@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "Multi-Attachment Saver"
+  },
+  "extensionDescription": {
+    "message": "Enregistrez toutes les pièces jointes d'un e-mail en une seule fois dans un dossier horodaté."
+  },
+  "contextMenuTitle": {
+    "message": "Enregistrer toutes les pièces jointes (by K-tech Studio)"
+  },
+  "actionTitle": {
+    "message": "Enregistrer tout"
+  }
+}

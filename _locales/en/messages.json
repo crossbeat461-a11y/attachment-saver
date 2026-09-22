@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "Multi-Attachment Saver"
+  },
+  "extensionDescription": {
+    "message": "Save all email attachments into a timestamped folder at once."
+  },
+  "contextMenuTitle": {
+    "message": "Save All Attachments (by K-tech Studio)"
+  },
+  "actionTitle": {
+    "message": "Save All Attachments"
+  }
+}

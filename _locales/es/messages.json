@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "Multi-Attachment Saver"
+  },
+  "extensionDescription": {
+    "message": "Guarda todos los archivos adjuntos en una carpeta con marca de tiempo a la vez."
+  },
+  "contextMenuTitle": {
+    "message": "Guardar todos los adjuntos (by K-tech Studio)"
+  },
+  "actionTitle": {
+    "message": "Guardar archivos adjuntos"
+  }
+}

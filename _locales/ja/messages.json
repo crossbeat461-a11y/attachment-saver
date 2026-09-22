@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "Multi-Attachment Saver"
+  },
+  "extensionDescription": {
+    "message": "すべての添付ファイルを日時スタンプ付きフォルダへ一括保存します。"
+  },
+  "contextMenuTitle": {
+    "message": "すべての添付ファイルを一括保存 (by K-tech Studio)"
+  },
+  "actionTitle": {
+    "message": "添付ファイルを一括保存"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "ja",
+  "version": "6.5",
+  "author": "K-Tech-Studio",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "K-saver@k-tech-studio.com",
+      "strict_min_version": "115.0"
+    }
+  },
+  "permissions": [
+    "messagesRead",
+    "downloads",
+    "menus",
+    "activeTab",
+    "notifications"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "__MSG_actionTitle__",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}

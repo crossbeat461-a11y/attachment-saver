@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "Multi-Attachment Saver"
+  },
+  "extensionDescription": {
+    "message": "Speichert alle E-Mail-Anhänge auf einmal in einem zeitgestempelten Ordner."
+  },
+  "contextMenuTitle": {
+    "message": "Alle Anhänge speichern (by K-tech Studio)"
+  },
+  "actionTitle": {
+    "message": "Anhänge speichern"
+  }
+}

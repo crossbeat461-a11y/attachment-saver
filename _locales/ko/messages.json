@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "Multi-Attachment Saver"
+  },
+  "extensionDescription": {
+    "message": "모든 첨부 파일을 타임스탬프가 포함된 폴더에 한꺼번에 저장합니다."
+  },
+  "contextMenuTitle": {
+    "message": "모든 첨부 파일 일괄 저장 (by K-tech Studio)"
+  },
+  "actionTitle": {
+    "message": "첨부 파일 일괄 저장"
+  }
+}

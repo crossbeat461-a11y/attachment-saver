@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "多附件保存器"
+  },
+  "extensionDescription": {
+    "message": "将所有电子邮件附件一次性保存到带有时间戳的文件夹中。"
+  },
+  "contextMenuTitle": {
+    "message": "保存所有附件 (by K-tech Studio)"
+  },
+  "actionTitle": {
+    "message": "保存所有附件"
+  }
+}
