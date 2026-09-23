@@ -22,7 +22,7 @@ body:
     attributes:
       label: アドオンの版
       description: アドオン管理で表示される版（例: 6.5）
-      placeholder: "6.5"
+      placeholder: "6.7"
     validations:
       required: true
   - type: input

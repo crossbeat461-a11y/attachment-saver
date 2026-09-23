@@ -9,7 +9,7 @@ Thunderbird add-on that saves every attachment from the message you are reading 
 
 | | |
 | --- | --- |
-| Version | 6.5 |
+| Version | 6.7 |
 | Thunderbird | 115.0 or later |
 | Add-on ID | `K-saver@k-tech-studio.com` |
 | License | [Mozilla Public License 2.0](LICENSE) |
@@ -26,7 +26,7 @@ Open a message in Thunderbird, then:
 - Use the context menu **Save all attachments in bulk**, or  
 - Open the popup and click **Save attachments in bulk**
 
-All attachments in that message are downloaded under a folder named like `MailAttachments_YYYYMMDD_HHMMSS/` (via the browser download settings). A small popup shows how many files were saved.
+All attachments in that message are downloaded under a folder named like `MailAttachments_YYYYMMDD_HHMMSS_SubjectSnippet/` (via the browser download settings). If no message is open or there are no attachments, a popup explains why. A completion popup shows how many files were saved.
 
 UI strings: Japanese, English, German, Spanish, French, Korean, Simplified Chinese (`_locales/`).
 
@@ -52,7 +52,7 @@ Thunderbird でメールを開いた状態で、次のいずれかから実行�
 - 右クリックメニュー「すべての添付ファイルを一括保存」  
 - ポップアップの「添付ファイルを一括保存」
 
-**表示中のメール 1 通**の添付を、`MailAttachments_YYYYMMDD_HHMMSS` のようなフォルダ名の下にまとめて保存します（保存先は Thunderbird / ブラウザのダウンロード設定に従います）。完了件数は小さなポップアップで表示します。
+**表示中のメール 1 通**の添付を、`MailAttachments_YYYYMMDD_HHMMSS_件名` のようなフォルダ名の下にまとめて保存します（保存先は Thunderbird / ブラウザのダウンロード設定に従います）。メール未表示・添付なし・保存失敗時もポップアップで理由を表示します。
 
 表示言語: 日・英・独・西・仏・韓・簡体字中国語（`_locales/`）。
 

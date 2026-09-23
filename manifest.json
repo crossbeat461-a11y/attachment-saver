@@ -3,7 +3,7 @@
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
   "default_locale": "ja",
-  "version": "6.5",
+  "version": "6.7",
   "author": "K-Tech-Studio",
   "browser_specific_settings": {
     "gecko": {
@@ -14,9 +14,7 @@
   "permissions": [
     "messagesRead",
     "downloads",
-    "menus",
-    "activeTab",
-    "notifications"
+    "menus"
   ],
   "background": {
     "scripts": [
